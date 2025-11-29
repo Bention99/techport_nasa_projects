@@ -46,7 +46,3 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```powershell
 iwr https://astral.sh/uv/install.ps1 -useb | iex
 ```
-
-### API Keys
-
-Even though this project accesses the NASA API, API Keys are not necessary, since NASA's API can be called without Keys.
