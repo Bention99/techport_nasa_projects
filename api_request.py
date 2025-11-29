@@ -1,5 +1,6 @@
 import requests
 from pprint import pprint
+from db import upsert_project
 
 
 def call_api(date):
@@ -17,4 +18,5 @@ def call_api(date):
 
     data = response.json()
 
-    pprint(data)
+    for project in data["projects"]:
+        upsert_project(project)
