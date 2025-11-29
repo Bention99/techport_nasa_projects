@@ -18,5 +18,11 @@ def call_api(date):
 
     data = response.json()
 
+    print("Creating Database - this may take a few minutes.")
+
     for project in data["projects"]:
         upsert_project(project)
+
+    print("Done!")
+
+    return

@@ -49,8 +49,4 @@ iwr https://astral.sh/uv/install.ps1 -useb | iex
 
 ### API Keys
 
-You can get your API key here:
-https://api.nasa.gov/#signUp
-
-and the API Token here:
-https://techport.nasa.gov/help/api
+Even though this project accesses the NASA API, API Keys are not necessary, since NASA's API can be called without Keys.

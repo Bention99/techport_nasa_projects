@@ -6,7 +6,9 @@ def main():
     init_db()
     print("Hello from techport-nasa-projects!")
     valid_date = user_input_information()
-    print(f"date set to {valid_date}")
+    print(f"Date set to {valid_date}")
+    
+    print(f"Calling API {valid_date}")
     call_api(valid_date)
 
 if __name__ == "__main__":
