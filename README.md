@@ -9,8 +9,8 @@ This project uses `uv` for Python dependency and environment management. If you 
 #### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Bention99/techport_nasa_projects.git
+cd techport_nasa_projects
 ```
 
 #### 2️⃣ Create a virtual environment
@@ -44,7 +44,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 #### Windows PowerShell
 
 ```powershell
-iwr https://astral.sh/uv/install.ps1 -useb | iex
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ### Run
