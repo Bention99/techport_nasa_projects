@@ -1,3 +1,0 @@
-2025-11-30 10:51:04,670 [INFO] Log initiated.
-2025-11-30 10:51:04,670 [INFO] Table 'projects' already exists. Skipping creation.
-2025-11-30 10:51:13,857 [INFO] Calling API - https://techport.nasa.gov/api/projects, {'updatedSince': '2000-10-10'}, {'accept': 'application/json'}
