@@ -1,4 +1,4 @@
-## 🚀 Project Setup Guide (Using `uv`)
+## Project Setup Guide (Using `uv`)
 
 This project uses `uv` for Python dependency and environment management. If you want to run it on your machine, follow these steps:
 
@@ -31,7 +31,7 @@ That's it — the project is ready to run! 🎉
 
 ---
 
-### ❓ If you don't have `uv` installed
+### If you don't have `uv` installed
 
 You can install it with one command:
 
@@ -45,4 +45,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```powershell
 iwr https://astral.sh/uv/install.ps1 -useb | iex
+```
+
+### Run
+
+After installation run:
+
+```bash
+uv run main.py
 ```
