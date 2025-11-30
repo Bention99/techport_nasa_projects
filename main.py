@@ -2,6 +2,7 @@ from user_input import user_input_information
 from api_request import call_api
 from db import init_db
 from log_handling import setup_logging, write_info_log
+from stats import interesting_stats
 
 
 def main():
@@ -14,6 +15,7 @@ def main():
     
     print(f"Calling API {valid_date}")
     call_api(valid_date)
+    interesting_stats()
 
 if __name__ == "__main__":
     main()

@@ -18,5 +18,13 @@ def call_api_project_details(project_id):
     result = {
         "title": project.get("title"),
         "destinationType": project.get("destinationType", []),
+        "startDate": project.get("startDate"),
+        "endDate": project.get("endDate"),
+        "startYear": project.get("startYear"),
+        "endYear": project.get("endYear"),
+        "status": project.get("status"),
+        "releaseStatus": project.get("releaseStatus"),
+        "viewCount": project.get("viewCount"),
+        "description": project.get("description"),
     }
     return result

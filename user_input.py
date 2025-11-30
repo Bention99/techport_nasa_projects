@@ -30,3 +30,12 @@ def check_date_validity(date):
         return True
     except ValueError:
         return False
+
+def projects_amount(total):
+    print(f"Each download requires an API call. How many Projects do you want to download? The total amount is: {total}")
+    amount = input("> ")
+    amount = int(amount)
+    if amount > total:
+        print(f"The amount can't be more then the maximal amount of {total}")
+        return None
+    return amount
