@@ -1,0 +1,18 @@
+2025-11-30 12:26:25,895 [INFO] Log initiated.
+2025-11-30 12:26:25,895 [INFO] Table 'projects' already exists. Skipping creation.
+2025-11-30 12:26:29,527 [INFO] Calling API - https://techport.nasa.gov/api/projects, {'updatedSince': '2020-01-01'}, {'accept': 'application/json'}
+2025-11-30 12:26:32,346 [INFO] Project 157865 -> UPDATED in 'projects'
+2025-11-30 12:26:33,309 [INFO] Project 157847 -> UPDATED in 'projects'
+2025-11-30 12:26:33,239 [INFO] Project 157848 -> UPDATED in 'projects'
+2025-11-30 12:26:34,257 [INFO] Project 13543 -> UPDATED in 'projects'
+2025-11-30 12:26:35,234 [INFO] Project 157851 -> UPDATED in 'projects'
+2025-11-30 12:26:36,030 [INFO] Project 96991 -> UPDATED in 'projects'
+2025-11-30 12:26:37,016 [INFO] Project 182201 -> UPDATED in 'projects'
+2025-11-30 12:26:37,980 [INFO] Project 118499 -> UPDATED in 'projects'
+2025-11-30 12:26:38,772 [INFO] Project 156317 -> UPDATED in 'projects'
+2025-11-30 12:26:39,775 [INFO] Project 96142 -> UPDATED in 'projects'
+2025-11-30 12:26:40,756 [INFO] Project 118324 -> UPDATED in 'projects'
+2025-11-30 12:26:41,540 [INFO] Project 118313 -> UPDATED in 'projects'
+2025-11-30 12:26:42,348 [INFO] Project 156382 -> UPDATED in 'projects'
+2025-11-30 12:26:43,138 [INFO] Project 156383 -> UPDATED in 'projects'
+2025-11-30 12:26:43,912 [INFO] Project 156381 -> UPDATED in 'projects'

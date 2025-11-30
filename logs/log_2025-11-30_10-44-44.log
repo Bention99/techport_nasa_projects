@@ -1,0 +1,2 @@
+2025-11-30 10:44:44,961 [INFO] Log initiated.
+2025-11-30 10:44:51,789 [INFO] Calling API - https://techport.nasa.gov/api/projects, {'updatedSince': '2020-01-01'}, {'accept': 'application/json'}
